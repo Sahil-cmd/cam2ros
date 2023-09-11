@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>camera_publisher</name>
+  <name>cam2ros</name>
   <version>0.0.1</version>
   <description>ROS2 package to publish webcam/external camera stream as image data</description>
   <maintainer email="panjwani_sahil@artc.a-star.edu.sg">Sahil Panjwani</maintainer>

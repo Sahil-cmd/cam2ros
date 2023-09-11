@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'camera_publisher'
+package_name = 'cam2ros'
 
 setup(
     name=package_name,
@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'cam_node = camera_publisher.cam_node:main',
+            'cam_node = cam2ros.cam_node:main',
         ],
     },
 )
