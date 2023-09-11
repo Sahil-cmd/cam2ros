@@ -35,7 +35,7 @@ def generate_launch_description():
         ),
 
         Node(
-            package='camera_publisher',
+            package='cam2ros',
             executable='cam_node',
             name='camera_publisher',
             output='screen',

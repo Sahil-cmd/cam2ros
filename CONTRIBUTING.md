@@ -1,6 +1,6 @@
-# Contributing to `camera_publisher`
+# Contributing to `cam2ros`
 
-Thank you for your interest in contributing to the `camera_publisher` package! Contributions from the community are essential in making this project better. Below are guidelines to help you make meaningful contributions.
+Thank you for your interest in contributing to the `cam2ros` package! Contributions from the community are essential in making this project better. Below are guidelines to help you make meaningful contributions.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Thank you for your interest in contributing to the `camera_publisher` package! C
 2. Clone the forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/camera_publisher.git
+   git clone https://github.com/your-username/cam2ros.git
 
 3. Navigate to the cloned directory and install any development dependencies.
 
@@ -50,7 +50,7 @@ For feature requests or enhancements, provide:
 3. Push the changes to your fork:
    ```bash
    git push origin feature/your-feature-name
-4. Go to the original `camera_publisher` repository on Github and create a Pull Request.
+4. Go to the original `cam2ros` repository on Github and create a Pull Request.
 
 ### Code Style
 
@@ -64,4 +64,4 @@ Once you've submitted a pull request:
 2. You may be asked to make some revisions.
 3. Once approved, your changes will be merged into the main branch.
 
-Thank you for helping improve the `camera_publisher` package!
+Thank you for helping improve the `cam2ros` package!

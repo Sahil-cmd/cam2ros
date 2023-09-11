@@ -1,6 +1,6 @@
-# camera_publisher
+# cam2ros
 
-`camera_publisher` is a ROS 2 package that provides a simple way to capture video feed from a webcam or an external camera and publish it as ROS 2 Image messages. This package is written in Python and utilizes OpenCV to interface with the webcam.
+`cam2ros` is a ROS 2 package that provides a simple way to capture video feed from a webcam or an external camera and publish it as ROS 2 Image messages. This package is written in Python and utilizes OpenCV to interface with the webcam.
 
 ## Table of Contents
 - [Features](#features)
@@ -37,14 +37,14 @@
 2. Clone the repository:
 
     ```bash
-    git clone [repository_url] camera_publisher
+    git clone [repository_url] cam2ros
     ```
 
 3. Build the package:
 
     ```bash
     cd ~/ros2_ws
-    colcon build --packages-select camera_publisher
+    colcon build --packages-select cam2ros
     ```
 
 4. Source the workspace:
@@ -58,18 +58,18 @@
 1. To run the cam node:
 
     ```bash
-    ros2 run camera_publisher cam_node
+    ros2 run cam2ros cam_node
     ```
 
 2. To launch the cam node using the launch file:
 
     ```bash
-    ros2 launch camera_publisher cam_launch.py
+    ros2 launch cam2ros cam_launch.py
     ```
 
 ## Contributing
 
-Contributions to `camera_publisher` are welcomed! Whether it's bug reports, feature requests, or code contributions, all are appreciated. For major changes, please open an issue first to discuss what you'd like to change.
+Contributions to `cam2ros` are welcomed! Whether it's bug reports, feature requests, or code contributions, all are appreciated. For major changes, please open an issue first to discuss what you'd like to change.
 
 Please see the CONTRIBUTING.md file for guidance on how to contribute to this project.
 
