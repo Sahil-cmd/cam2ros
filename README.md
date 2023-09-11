@@ -1,6 +1,6 @@
 # cam2ros
 
-`cam2ros` is a ROS 2 package that provides a simple way to capture video feed from a webcam or an external camera and publish it as ROS 2 Image messages. This package is written in Python and utilizes OpenCV to interface with the webcam.
+`cam2ros` is a ROS 2 package that provides a simple way to capture video feed from a webcam or an external camera and publish it as ROS 2 Image messages. This package is written in Python and utilizes OpenCV to interface with the webcam or a connected external camera.
 
 ## Table of Contents
 - [Features](#features)
@@ -14,7 +14,7 @@
 ## Features
 
 - Capture video feed from the default webcam device.
-- Capture video feed from external cameras
+- Capture video feed from connected external cameras
 - Publish the captured frames as `sensor_msgs/msg/Image` messages.
 
 ## Dependencies
